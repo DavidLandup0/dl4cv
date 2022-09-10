@@ -4,11 +4,11 @@
 
 </a>
 
-|                          DeepDream                           |                      Keypoint Detection                      |   Image Captioning with KerasNLP Transformers and ConvNets   |
+|               DeepDream with TensorFlow/Keras                |              Keypoint Detection with Detectron2              |   Image Captioning with KerasNLP Transformers and ConvNets   |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <img src="https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_12/deep-dream-16.png" width="350px"> | <img src="https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_9/object-detection-9_2.png"  width="350px"> | <img src="https://s3.stackabuse.com/media/guided+projects/image-captioning-with-cnns-and-transformers-with-keras-7.png"  width="350px" /> |
 
-|            Semantic Segmentation with DeepLabV3+             |            Real-Time Object Detection from Videos            |                 Breast Cancer Classification                 |
+|        Semantic Segmentation with DeepLabV3+ in Keras        |      Real-Time Object Detection from Videos with YOLOv5      |           Large-Scale Breast Cancer Classification           |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 | <img src="https://s3.stackabuse.com/media/guided+projects/deeplabv3-semantic-segmentation-with-keras-13.png"  width="350px"> | <img src="https://s3.stackabuse.com/media/guided+projects/yolov5-inference.png"  width="350px" /> | <img src="https://s3.stackabuse.com/media/guided+projects/breast-cancer-prediction.png"  width="350px" /> |
 
@@ -274,6 +274,40 @@ In this lesson, you'll learn about the DeepDream algorithm, with gaussian gradie
 ![](https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_12/deep-dream-16.png)
 
 ![](https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_12/deep-dream-17.gif)
+
+### Who This Course is For?
+
+This course is dedicated to everyone with a basic understanding of machine learning and deep learning, to orient themselves towards or initially step into computer vision - an exciting field in which deep learning has been making strides recently. The course will primarily be using Keras - the official high-level API for TensorFlow, with some PyTorch in later lessons.
+
+While prerequisite knowledge of Keras isn't strictly required, it will undoubtedly help. I won't be explaining what an activation function is, how cross-entropy works or what weights and biases are. There are amazing resources covering these topics, ranging from free blogs to paid books - and covering these topics would inherently steer the focus of the course in a different direction than it's intended to be set in. The course is written to be beginner-friendly, with layers to be extracted through multiple reads. Not everything is likely to "stick" after the first read, so intermediate users will find useful information on critical thinking, advanced techniques, new tools (many are covered and used interchangeably instead of reusing the same pipeline), and optimization techniques. The last chapter covers how we can achieve a 90% reduction in parameter count, and 50% reduction in training times, while maintaining the same accuracy as the baseline model, for example.
+
+While writing the course, I've focused on covering both the technical, intuitive and practical side of concepts, demystifying them and making them approachable.
+
+The name of the course starts with _"Practical..."_. Many think that this mainly means having lots and lots of code and not much theory. Skipping important _theory of application_ leads to bad science and bad models for production. Throughout the course, I'll be detouring to cover various techniques, tools and concepts and then implement them practically. It's my humble opinion that practicality requires an explained basis, as to why you're practically doing something and how it can help you. I tried making the course practical with a focus on making you _able_ to implement things practically. This includes a lot of breaks in which we ask ourselves _"Ok, but why?"_ after code samples.
+
+Things don't always work - you should know why you're trying them out. I want this course to not only teach you the techical side of Computer Vision, but also *how to be a Computer Vision engineer*.
+
+##### For the Researcher:
+
+I hope that this effort pays off in the sense that professionals coming from different fields don't struggle with finding their way through the landscape of deep learning in the context of computer vision, and can apply the correct methodologies required for reproducible scientific rigor. In my time navigating research papers - there are clear issues with applying deep learning to solve current problems. From leaking testing data into training data, to incorrectly applying transfer learning, to misusing the backbone architectures and preventing them to work well, to utilizing old and deprecated technologies that are objectively out of date - modern research could significantly be improved by providing a guiding hand that helps researchers navigate the landscape and avoid common pitfalls. **These mistakes are understandable.** Re-orienting from a lifetime of life sciences to applying computer vision to a problem you're passionate about is **difficult**. Addressing this requires building resources that equip researchers with the required know-how to shine in computer vision as much as they shine in their respective fields. This course tries to do exactly that.
+
+##### For the Software Engineer:
+
+I used to be a software engineer before diving into machine and deep learning. It's a vastly different experience. Many call deep learning _"Software 2.0"_ - a term coined by Andrej Karpathy, one of the major names in deep learning and computer vision. While some raise disputes about the naming convention - the fact of the matter is that it's fundamentally different than what a classical software engineer is used to. Software is about precisely writing down a sequence of steps for a machine to take to achieve a goal. This is both the beauty and bane of software - if it works, it works exactly and only because you wrote it to work. If it doesn't work, it doesn't work exactly and only because you wrote it to not work (usually accidentally). With Software 2.0, instead of explicitly writing instructions, we write the container for those instructions, and let it figure out a way to reach some desired behavior.
+
+At many junctions and problems I tried to solve using software, it was extremely difficult to come up with instructions, and for some problems, it was downright impossible. Imbuing software with machine and deep learning models allows our solutions to problems to also include something extra - something that's beyond our own expertise. When I wanted to help solve an unrealistic bubble in the real estate market by providing accurate appraisals free of charge for all users of the website - I knew that I would never be able to code the rules of what makes the price of some real estate. It was both beyond my expertise, and beyond my physical capabilities. In the end, I built a machine learning system that outperformed local agencies in appraisals and imbued my software with this ability. As a software engineer - you can **empower your code** with machine and deep learning.
+
+##### For the Student:
+
+Every fresh graduate that lands an internship gets to realize the gap between traditional academic knowledge and production code. It's usually a process in which you get hit with a hard case of an impostor syndrome, fear and self-doubt. While these feelings are unnecessary, they're understandable, as you're suddenly surrounded by a wall of proprietary solutions, frameworks and tools nobody told you about before and nuanced uses of paradigms you might be familiar with. Thankfully, this state is easily dispelled through practice, mentorship and simply getting familiar with the *tools*, in most cases. I hope that this course helps you get ahold of the reins in the deep learning ecosystem for computer vision, covering various tools, utilities, repositories and ideas that you can keep in the back of your head. Keep at it, slow and steady. Incremental improvement is an amazing thing!
+
+##### For the Data Enthusiast:
+
+You don't have to be a professional, or even a professional in training, to appreciate data and hierarchical abstraction. Python is a high-level programming language, and easy to get a hold of even if you haven't worked with it before. Without any experience in computer science, software engineering, mathematics or data science, the road will definitely be more difficult, though. Many issues you might run into won't necessarily be tied to the language or ecosystem itself - setting up a development environment, handling versions of dependencies, finding fixes for issues, etc. are more likely to be a show stopper for you than learning the syntax of a `for` loop. For example, debugging is natural for software engineers, but is commonly being put off by practitioners who step into ML/DL without an SE background. 
+
+Even so, delegating your environment to free online machines (such as Google Colab or Kaggle) removes a lot of the issues associated with your local environment! They're useful for novices as much as for advanced practicioners. They offer free and paid versions, and really helped make both research and sharing results much easier, especially for those without an SE background.
+
+You might also be a philosopher or ethicist looking to break into data or AI ethics. This is an important and growing field. Computer vision systems (as have other machine learning systems) have faced their criticisms in the past in regards to ethically questionable biases. Only when we realize that we have problems can we start fixing them - and we need more people assessing the work of data scientists and helping to root out bias. Having a surface-level understanding of these systems might be sufficient for some analysis - but having a more in-depth understanding (even if you don't intend on **building** some yourself) can help you assess systems and aid in improving them.
 
 ### Yet Another Computer Vision Course?
 
