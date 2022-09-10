@@ -6,11 +6,11 @@
 
 |                          DeepDream                           |                      Keypoint Detection                      |   Image Captioning with KerasNLP Transformers and ConvNets   |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_12/deep-dream-16.png"> | <img src="https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_9/object-detection-9_2.png"> | <img src="https://s3.stackabuse.com/media/guided+projects/image-captioning-with-cnns-and-transformers-with-keras-7.png" style="zoom:150%;" /> |
+| <img src="https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_12/deep-dream-16.png" width="350px"> | <img src="https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_9/object-detection-9_2.png"  width="350px"> | <img src="https://s3.stackabuse.com/media/guided+projects/image-captioning-with-cnns-and-transformers-with-keras-7.png"  width="350px" /> |
 
 |            Semantic Segmentation with DeepLabV3+             |            Real-Time Object Detection from Videos            |                 Breast Cancer Classification                 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| <img src="https://s3.stackabuse.com/media/guided+projects/deeplabv3-semantic-segmentation-with-keras-13.png"> | <img src="https://s3.stackabuse.com/media/guided+projects/yolov5-inference.png" style="zoom:150%;" /> | <img src="https://s3.stackabuse.com/media/guided+projects/breast-cancer-prediction.png" style="zoom:50%;" /> |
+| <img src="https://s3.stackabuse.com/media/guided+projects/deeplabv3-semantic-segmentation-with-keras-13.png"  width="350px"> | <img src="https://s3.stackabuse.com/media/guided+projects/yolov5-inference.png"  width="350px" /> | <img src="https://s3.stackabuse.com/media/guided+projects/breast-cancer-prediction.png"  width="350px" /> |
 
 
 
