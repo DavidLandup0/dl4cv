@@ -275,6 +275,67 @@ In this lesson, you'll learn about the DeepDream algorithm, with gaussian gradie
 
 ![](https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_12/deep-dream-17.gif)
 
+#### Lesson 14 - Optimizing Deep Learning Models for Computer Vision
+
+Are you making your model design run efficiently? If so - are you optimizing for training speed, inference speed, parameter efficiency or VRAM efficiency? Is your training data pipeline optimized? How about your deployment model?
+
+This lesson will serve as more of a checklist to make sure your models aren't using more compute than they need to. Did you know that with a few changed lines, you can make your TensorFlow/Keras models use 91% less parameters and experience a 61% reduction in training times as well as a 57% reduction in inference times?
+
+Just changing small decisions in the model definition or the training loop, you can really squeeze out a lot more out of your models:
+
+<table class="table table-striped">
+    <tbody>
+        <tr>
+            <td></td>
+            <td>Naive</td>
+            <td>Pooling</td>
+            <td>Separable</td>
+            <td>Separable+JIT</td>
+            <td>Separable+JIT+AMP</td>
+            <td>Separable+JIT+AMP+Fusing</td>
+        </tr>
+        <tr>
+            <td>Parameters</td>
+            <td>7,476,742</td>
+            <td>5,873,478</td>
+            <td>679,137</td>
+            <td>679,137</td>
+            <td>679,137</td>
+            <td>679,137</td>
+        </tr>
+        <tr>
+            <td>Accuracy</td>
+            <td>82%</td>
+            <td>65%</td>
+            <td>74%</td>
+            <td>76%</td>
+            <td>74%</td>
+            <td>79%</td>
+        </tr>
+        <tr>
+            <td>Train time/epoch</td>
+            <td>171s</td>
+            <td>164s</td>
+            <td>250s</td>
+            <td>89s</td>
+            <td>67s</td>
+            <td>66s</td>
+        </tr>
+        <tr>
+            <td>Inference time/step (ms)</td>
+            <td>52ms/step</td>
+            <td>51ms/step</td>
+            <td>36ms/step</td>
+            <td>19ms/step</td>
+            <td>22ms/step</td>
+            <td>22ms/step</td>
+        </tr>
+    </tbody>
+</table>
+If you aren't taking advantage of *XLA with Just in Time (JIT)* compilation, step fusing, mixed-precision training, depthwise separable convolutions and pooling instead of flattening - this lesson will turbocharge your model development.
+
+Besides that - learn more about effective data pipelines with the `tf.data` API and model deployment optimization with the Pruning API, Weight Clustering API, Quantization API and Collaborative Optimization, which oftentimes produce up to 10x smaller models **with the same performance as the originals**.
+
 ### Who This Course is For?
 
 This course is dedicated to everyone with a basic understanding of machine learning and deep learning, to orient themselves towards or initially step into computer vision - an exciting field in which deep learning has been making strides recently. The course will primarily be using Keras - the official high-level API for TensorFlow, with some PyTorch in later lessons.
