@@ -1,20 +1,28 @@
-### Practical Deep Learning for Computer Vision with Python
+### <a target="_blank" href="https://stackabuse.com/courses/practical-deep-learning-for-computer-vision-with-python/">Practical Deep Learning for Computer Vision with Python</a>
 
-![](https://s3.stackabuse.com/media/courses/dl-cv-banner.jpg)
+<a target="_blank" href="https://stackabuse.com/courses/practical-deep-learning-for-computer-vision-with-python/">![](https://s3.stackabuse.com/media/courses/dl-cv-banner.jpg)
+
+</a>
+
+|                          DeepDream                           |                      Keypoint Detection                      |   Image Captioning with KerasNLP Transformers and ConvNets   |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![](https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_12/deep-dream-16.png) | ![](https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_9/object-detection-9_2.png) | <img src="https://s3.stackabuse.com/media/guided+projects/image-captioning-with-cnns-and-transformers-with-keras-7.png" style="zoom:150%;" /> |
+
+|            Semantic Segmentation with DeepLabV3+             |            Real-Time Object Detection from Videos            |                 Breast Cancer Classification                 |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| ![](https://s3.stackabuse.com/media/guided+projects/deeplabv3-semantic-segmentation-with-keras-13.png) | <img src="https://s3.stackabuse.com/media/guided+projects/yolov5-inference.png" style="zoom:150%;" /> | <img src="https://s3.stackabuse.com/media/guided+projects/breast-cancer-prediction.png" style="zoom:50%;" /> |
 
 
 
-
-
-
-
-
+This course is meant to get you up and running with applying Deep Learning to Computer Vision. With illustrations and animations to break the monotony of text, the course is focused on demystifying and making DL for CV more approachable and actionable, primarily in the TensorFlow/Keras ecosystem.
 
 ### What's Inside?
 
 #### Lesson 1 - Introduction to Computer Vision
 
 In the preface and Lesson 1 - you'll learn about the course and computer vision in general. What is computer vision and what isn't? What inspired the recent advances in computer vision? What are the general tasks, applications and tools? 
+
+![](https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_1/dl-cv-lesson-1-1.png)
 
 #### Lesson 2 - Guide to Convolutional Neural Networks
 
@@ -94,7 +102,7 @@ You'll learn how to:
 
 In the project, we'll be building a state of the art classifier for IDC, compared to the currently published papers in renowned journals:
 
-![](https://s3.stackabuse.com/media/guided+projects/breast-cancer-prediction.png)
+<img src="https://s3.stackabuse.com/media/guided+projects/breast-cancer-prediction.png" style="zoom:50%;" />
 
 #### Lesson 7 - Guided Project: Convolutional Neural Networks - Beyond Basic Architectures
 
@@ -164,7 +172,7 @@ In this lesson, you'll learn:
 - Several examples of object detection, instance segmentation, keypoint detection or overviews of PyTorch's `torchvision`, Ultralytic's YOLOv5, TFDetection, Detectron2, Matterport's Mask R-CNN
 - Object detection metrics
 
-![](https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_9/object-detection-4.png)
+<img src="https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_9/object-detection-4.png" style="zoom:80%;" />
 
 ![](https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_9/object-detection-9.png)
 
@@ -185,9 +193,9 @@ Building on the knowledge from the previous lesson - we'll make use of the most 
 - Training a YOLOv5 detector on custom data
 - Deploying a YOLOv5 Model to Flask and preparing for deployment for Android and iOS
 
-![](https://s3.stackabuse.com/media/guided+projects/real-time-road-sign-detection-with-yolov5-19.png)
+<img src="https://s3.stackabuse.com/media/guided+projects/real-time-road-sign-detection-with-yolov5-19.png" style="zoom: 50%;" />
 
-![](https://s3.stackabuse.com/media/guided+projects/yolov5-inference.png)
+<img src="https://s3.stackabuse.com/media/guided+projects/yolov5-inference.png" style="zoom:150%;" />
 
 
 
@@ -242,7 +250,7 @@ In this Guided Project, you'll learn how to build an end-to-end image segmentati
 - Atrous convolutions and the Atrous Spatial Pyramid Pooling Module
 - The Albumentations library and augmenting semenatic segmentation maps with images
 - Creating semantic segmentation datasets with masks as labels
-- Implementation of the DeepLabV3+ architecture
+- Implementation of the DeepLabV3+ architecture with Keras
 - Segmentation metrics and loss functions
 
 
@@ -266,14 +274,6 @@ In this lesson, you'll learn about the DeepDream algorithm, with gaussian gradie
 ![](https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_12/deep-dream-16.png)
 
 ![](https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_12/deep-dream-17.gif)
-
-:::note
-**Note:** This is an *early-access* version of the course, which will be launched by September of 2022. By enrolling now, you'll get access to the Work-In-Progress version updated every few days, secure your seat for the full course at a fraction of the price, and get a DRM-free, downloadable PDF eBook, as soon as the course is finished.
-:::
-
-### Release and Pricing Timeline
-
-![](https://s3.stackabuse.com/media/courses/dlcv-timeline.jpg)
 
 ### Yet Another Computer Vision Course?
 
