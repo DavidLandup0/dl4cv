@@ -6,11 +6,11 @@
 
 |                          DeepDream                           |                      Keypoint Detection                      |   Image Captioning with KerasNLP Transformers and ConvNets   |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![](https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_12/deep-dream-16.png) | ![](https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_9/object-detection-9_2.png) | <img src="https://s3.stackabuse.com/media/guided+projects/image-captioning-with-cnns-and-transformers-with-keras-7.png" style="zoom:150%;" /> |
+| <img src="https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_12/deep-dream-16.png"> | <img src="https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_9/object-detection-9_2.png"> | <img src="https://s3.stackabuse.com/media/guided+projects/image-captioning-with-cnns-and-transformers-with-keras-7.png" style="zoom:150%;" /> |
 
 |            Semantic Segmentation with DeepLabV3+             |            Real-Time Object Detection from Videos            |                 Breast Cancer Classification                 |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![](https://s3.stackabuse.com/media/guided+projects/deeplabv3-semantic-segmentation-with-keras-13.png) | <img src="https://s3.stackabuse.com/media/guided+projects/yolov5-inference.png" style="zoom:150%;" /> | <img src="https://s3.stackabuse.com/media/guided+projects/breast-cancer-prediction.png" style="zoom:50%;" /> |
+| <img src="https://s3.stackabuse.com/media/guided+projects/deeplabv3-semantic-segmentation-with-keras-13.png"> | <img src="https://s3.stackabuse.com/media/guided+projects/yolov5-inference.png" style="zoom:150%;" /> | <img src="https://s3.stackabuse.com/media/guided+projects/breast-cancer-prediction.png" style="zoom:50%;" /> |
 
 
 
@@ -26,7 +26,7 @@ In the preface and Lesson 1 - you'll learn about the course and computer vision 
 
 #### Lesson 2 - Guide to Convolutional Neural Networks
 
-In the second lesson - you'll dive into the crux of Convolutional Neural Networks (CNNs or ConvNets for short), and the theory behind them. You'll understand what convolutions are, how convolutional layers work, hyperparameters such as filter strides, padding and their effect on feature maps, pooling and fully-connected layers and how this landscape of components fits into the whole picture, as well as how these modular components can be re-used for other purposes. 
+In the second lesson - you'll dive into the crux of Convolutional Neural Networks (CNNs or ConvNets for short), and the theory behind them. You'll understand what convolutions are, how convolutional layers work, hyperparameters such as filter strides, padding and their effect on feature maps, pooling and fully-connected layers and how this landscape of components fits into the whole picture, as well as how these modular components can be re-used for other purposes.
 
 #### Lesson 3 - Guided Project: Building Your First Convolutional Neural Network With Keras
 
@@ -80,7 +80,7 @@ It can't be overstated how powerful Transfer Learning is, and most don't give it
 - Preprocessing input for pre-trained models
 - Adding new classification tops to CNN bases
 - The TensorFlow Datasets project and creating Train/Test/Validation splits
-- Fine-Tuning Models
+- Freezing layers fine-tuning models
 
 ![](https://s3.stackabuse.com/media/ebooks/deep+learning+computer+vision/lesson_5/dl-cv-lesson-5-9.png)
 
